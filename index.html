@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Valadation</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h1>Practice With Form Validation</h1>
+            <p>Working to validate forms using javascript on submit checks all forms to ensure they are filled out properly turns green if correct turns red and outputs a dynamic message if incorrect </p>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input  type="text" id="username" placeholder="Please Enter Your Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input  type="text" id="email" placeholder="Please Enter Your Email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input  type="password" name="password" id="password" placeholder="Please Enter Your Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input  type="password" name="password" id="password2" placeholder="Please Confirm Your Password">
+                <input  id="check" type="checkbox" >Show Password
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
